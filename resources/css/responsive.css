@@ -1,0 +1,88 @@
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .main-nav ul{
+        width:100%;
+        top:105px;
+    }
+    .hero{
+        height:1100px;
+        background-position: left top;
+    }
+    .hero-text-box {
+        padding-top: 90px;
+    }
+    .hero img {
+        width: 300px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .login-about {
+        padding-top: 100px;
+    }
+    .login-about img {
+        position: static;
+        margin: 0 auto;
+        display: block;
+        width:350px;
+    }
+
+    .about-food-menu {
+        padding-top: 50px;
+    }
+    .about-food-menu img {
+        position: static;
+        margin-top: 50px;
+        width: 350px;
+    }
+
+  }
+  @media only screen and (max-width: 600px) {
+
+    .hero{
+        background-position: bottom center;
+    }
+    .main-nav ul{
+        padding-left:0;
+    }
+    .main-nav ul h3 {
+        font-size: 2.2rem;
+    }
+    .hero-btn .btn {
+        font-size: 1.3rem;
+    }
+    .login-about img {
+        width: 330px;
+    }
+    .about-food-menu img{
+        position: static;
+        margin-top: 50px;
+        width: 330px;
+        margin:auto;
+        display: block;
+    }
+    .newslatter h4 {
+        font-size: 1.8rem;
+        line-height: 2;
+    }
+    .footer-top h2 {
+        font-size: 3rem;
+    }
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
